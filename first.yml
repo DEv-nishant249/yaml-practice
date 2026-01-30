@@ -1,0 +1,41 @@
+# full form of yaml is -> yet another markup language it store values 
+# in key-pairs 
+name : Nishant 
+age : 21
+
+# this object below 
+# key : inside key-value is called object
+# eg:-
+servers : 
+  name : "ubuntu"
+  capacity : 50GB
+
+# okay this is obejct
+
+# now list 
+# list of items 
+social_media :
+  - insta-developer_nishant
+  - linkedin-Nishant Kumar
+
+# multiline comment how to do it in yaml 
+# just use the pipe symbol | 
+
+multi_Comment : | 
+  Hii , I am Nishant How are you man ,
+  I am good what about you buddy . 
+  I am also fine buddy
+
+# list of object in yaml 
+# like run the first list of task then another 
+
+testing : 
+  - server1 : 
+    name : ec2
+    capacity : 20GB
+  - server2 : 
+    name : ubuntu
+    capacity : 40GB
+
+
+    
