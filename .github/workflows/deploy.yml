@@ -16,6 +16,4 @@ jobs:
         run: |
           echo cloning the repo
           echo ${{ toJson(github)}}
-          echo below you will see the owner of the repo 
-          echo ${{ toJson(github.repository_owner)}}
           git clone https://github.com/${{github.repository}}.git
