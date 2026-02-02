@@ -1,0 +1,9 @@
+name : Greeting
+on : [push,workflow_dispatch] 
+# if you want a button where you click and manually run the workflow then we use workflow_dispatch
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - name : Greeting User
+      - run : echo Hello Nishant
