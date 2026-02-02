@@ -3,6 +3,9 @@ name: Deploying react project
 on:
   - push
   - workflow_dispatch
+
+permissions:
+    contents: read
 jobs:
   cloning_code:
     runs-on: ubuntu-latest
