@@ -1,0 +1,20 @@
+name: Deploying react project
+
+on:
+  - push
+  - workflow_dispatch
+jobs:
+  cloning_code:
+      runs-on : ubuntu-latest
+    # cloning the repo
+    # method 1 using expression context . context means variable or function we use what github provides
+      steps : 
+        - name : Get the Code
+          run: |
+           echo cloning the repo
+           echo ${{ toJson(github)}}
+           echo below you will see the owner of the repo 
+           echo ${{ toJson(github.repository_owner)}}
+           git clone https://github.com/${{github.repository}}.git
+
+
