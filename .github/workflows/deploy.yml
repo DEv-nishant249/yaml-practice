@@ -5,7 +5,7 @@ on:
   - workflow_dispatch
 jobs:
   cloning_code:
-      runs-on : ubuntu-latest
+      runs-on: ubuntu-latest
     # cloning the repo
     # method 1 using expression context . context means variable or function we use what github provides
       steps : 
