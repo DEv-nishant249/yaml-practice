@@ -6,4 +6,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Greeting User
-      - run: echo Hello Nishant
+        run: echo Hello Nishant
